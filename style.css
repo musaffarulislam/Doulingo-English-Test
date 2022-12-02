@@ -14,18 +14,13 @@ body {
 
 }
 
-
-
-
 .navbar {
 
 	background-color: rgb(255, 255, 255);
 	box-shadow: 0 2px 5px rgba(88, 88, 88, 0.2);
 }
 
-
-
-.nav-item .btn {
+.nav-item .btn{
 	color: #FA811B;
 	height: 40px;
 	border: 2px solid #FA811B;
@@ -38,7 +33,6 @@ body {
 	background-color: #FA811B;
 }
 
-
 .dropdown-menu {
 	border: 0;
 	border-radius: 5px;
@@ -50,16 +44,7 @@ body {
 	background-color: #FA811B;
 }
 
-
-
-
-
-
-
-
-
 /*--------------------------------- Main Body ------------------------------*/
-
 
 .main-body {
 	box-shadow: 0 0 10px rgba(88, 88, 88, 0.2);
@@ -68,29 +53,19 @@ body {
 
 /*--------------------------------- Body 1------------------------------*/
 
-
-
-
-
-
-
-
 .body1-img {
 	align-items: end;
 }
 
-
 .body1-text {
 	font-family: 'din-round', sans-serif;
 }
-
 
 .body1-text h1 {
 	word-break: normal;
 	font-weight: bolder;
 	color: #5f5f5f;
 }
-
 
 .body-common {
 	display: flex;
@@ -99,23 +74,18 @@ body {
 	text-align: center;
 }
 
-
 .row {
 	width: 100%;
 }
-
-
 
 .body1-icon {
 	align-self: left;
 }
 
-
 .body1-icon-text {
 	color: #797979;
 	text-align: start;
 }
-
 
 .body1-text .btn {
 	width: 180px;
@@ -126,11 +96,10 @@ body {
 	border-radius: 6px;
 }
 
-
 .body1-text .btn:hover {
+	color: #ffffff;
 	background-color: #ff8c2e;
 }
-
 
 
 .university {
@@ -138,12 +107,7 @@ body {
 }
 
 
-
-
-
 /*--------------------------------- hr ------------------------------*/
-
-
 
 .hr-style {
 	width: 70%;
@@ -152,14 +116,7 @@ body {
 
 }
 
-
-
 /*--------------------------------- body2 ------------------------------*/
-
-
-
-
-
 
 .on-demand {
 	align-items: center;
@@ -170,44 +127,32 @@ body {
 	color: #5f5f5f;
 }
 
-
 .on-demand-col img {
 	width: 100px;
 }
-
 
 .on-demand-col-text-heading-main {
 	text-align: center;
 	color: #3a3a3a;
 }
 
-
-
 .on-demand-col-text-heading {
 	text-align: center;
 	color: #757575;
 }
-
-
 
 .ondemand-text-bottom {
 	text-align: center;
 	color: #c1c1c1;
 }
 
-
-
-
 /*--------------------------------- body3 ------------------------------*/
-
-
 
 .body3-text h3 {
 	text-align: left;
 	font-weight: bolder;
 	color: #5f5f5f;
 }
-
 
 .body3-text .btn{
 	font-weight: bolder;
@@ -216,14 +161,7 @@ body {
 	border-radius: 6px;
 }
 
-
-
 /*--------------------------------- body2 ------------------------------*/
-
-
-
-
-
 
 .accurate {
 	align-items: center;
@@ -234,30 +172,24 @@ body {
 	color: #5f5f5f;
 }
 
-
 .accurate-col img {
 	width: 100px;
 }
-
 
 .accurate-col-text-heading-main {
 	text-align: center;
 	color: #3a3a3a;
 }
 
-
-
 .accurate-col-text-heading {
 	text-align: center;
 	color: #757575;
 }
 
-
 .accurate-text-bottom {
 	text-align: center;
 	color: #c1c1c1;
 }
-
 
 .body4 .btn{
 	font-weight: bolder;
@@ -267,10 +199,42 @@ body {
 }
 
 
+.body7-text{
+	color: #757575;
+}
+
+.body7-text:hover{
+	cursor: pointer;
+}
+
+/*--------------------------------- body2 ------------------------------*/
+
+.body5-icon-text {
+	font-size:larger;
+	color: #3e3e3e;
+	text-align: start;
+}
+
+.body6 .btn {
+	margin-top: 10px;
+	width: 180px;
+	height: 50px;
+	color: #ffffff;
+	background-color: #FA811B;
+	height: 40px;
+	border-radius: 6px;
+}
+
+.body6 .btn:hover {
+	color: #ffffff;
+	background-color: #ff8c2e;
+}
+
+.footer .body7-text{
+	margin: 5px;
+}
+
 /*---------------------------------Media Query------------------------------*/
-
-
-
 
 @media (min-width: 1200px) {
 	body {
@@ -283,9 +247,6 @@ body {
 		padding: 0;
 	}
 }
-
-
-
 
 @media only screen and (min-width:1200px) {
 	.navbar {
@@ -364,18 +325,7 @@ body {
 	}
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+/*---------------------------------Certify Engish Body 1------------------------------*/
 
 @media (min-width: 768px) {
 	.certify-english {
@@ -383,20 +333,17 @@ body {
 	}
 }
 
-
 @media (min-width: 1024px) {
 	.certify-english {
 		padding: 90px 0;
 	}
 }
 
-
 @media (min-width: 1250px) {
 	.certify-english {
 		padding: 120px 0;
 	}
 }
-
 
 @media (max-width: 975px) {
 	.certify-english-row {
@@ -408,8 +355,6 @@ body {
 		align-items: center;
 	}
 }
-
-
 
 @media (max-width: 975px) {
 	.university {
@@ -424,15 +369,11 @@ body {
 	}
 }
 
-
-
-
 @media (min-width: 975px) {
 	.body1-text {
 		text-align: left;
 	}
 }
-
 
 @media (max-width: 576px) {
 	.body1-icon-content {
@@ -446,13 +387,11 @@ body {
 	}
 }
 
-
 @media (max-width: 500px) {
 	.body1-icon-content {
 		padding-left: 30px;
 	}
 }
-
 
 @media (max-width: 460px) {
 	.body1-icon-content {
@@ -460,13 +399,11 @@ body {
 	}
 }
 
-
 @media (max-width: 400px) {
 	.body1-icon-content {
 		padding-left: 0px;
 	}
 }
-
 
 @media (min-width: 1200px) {
 	.body1-img {
@@ -475,21 +412,20 @@ body {
 	}
 }
 
+@media (max-width: 575px) {
+	.body1-img {
+		display: flex;
+		justify-content: center;
+	}
+}
 
-
-
-
-
-
-
-
+/*---------------------------------On Demand Body 2------------------------------*/
 
 @media (min-width: 768px) {
 	.on-demand {
 		padding: 50px 0;
 	}
 }
-
 
 @media (min-width: 1024px) {
 	.on-demand {
@@ -497,21 +433,13 @@ body {
 	}
 }
 
-
 @media (min-width: 1250px) {
 	.on-demand {
 		padding: 100px 0;
 	}
 }
 
-
-
-
-
-
-
-
-
+/*---------------------------------Sent Result Body 3------------------------------*/
 
 @media (min-width: 768px) {
 	.sent-result {
@@ -519,20 +447,17 @@ body {
 	}
 }
 
-
 @media (min-width: 1024px) {
 	.sent-result {
 		padding: 70px 0;
 	}
 }
 
-
 @media (min-width: 1250px) {
 	.sent-result {
 		padding: 100px 0;
 	}
 }
-
 
 @media (max-width: 975px) {
 	.sent-result-row {
@@ -545,7 +470,6 @@ body {
 	}
 }
 
-
 @media (min-width: 1200px) {
 	.body3-img {
 		display: flex;
@@ -553,14 +477,11 @@ body {
 	}
 }
 
-
-
 @media (max-width: 975px){
 	.body3-img{
 		padding-bottom: 50px;
 	}
 }
-
 
 @media (max-width: 575px){
 	.body3-img{
@@ -569,14 +490,11 @@ body {
 	}
 }
 
-
-
 @media (min-width: 975px){
 	.body3-text h3{
 		padding: 0 50px;
 	}
 }
-
 
 @media (min-width: 975px){
 	.body3-content{
@@ -584,21 +502,17 @@ body {
 	}
 }
 
-
-
 @media (min-width: 1200px){
 	.body3-text h3{
 		padding: 0 120px;
 	}
 }
 
-
 @media (min-width: 1200px){
 	.body3-content{
 		padding: 0 120px;
 	}
 }
-
 
 @media (max-width: 575px){
 	.body3-text .btn{
@@ -606,29 +520,17 @@ body {
 	}
 }
 
-
-
 @media (min-width: 975px){
 	.body3-text .btn{
 		padding: 0 50px;
 	}
 }
 
-
 @media (min-width: 1200px){
 	.body3-text .btn{
 		padding: 0 120px;
 	}
 }
-
-
-
-
-/* @media (max-width: 1200px){
-	.body3-content{
-		padding: 0 10px;
-	}
-} */
 
 
 @media (max-width: 975px) {
@@ -645,13 +547,11 @@ body {
 	}
 }
 
-
 @media (max-width: 575px){
 	.body3-text h3{
 		padding-left: 20px;
 	}
 }
-
 
 @media (max-width: 575px){
 	.body3-content{
@@ -659,11 +559,7 @@ body {
 	}
 }
 
-
-
-
-
-
+/*---------------------------------Accurate Body 4------------------------------*/
 
 @media (min-width: 768px) {
 	.accurate {
@@ -671,13 +567,11 @@ body {
 	}
 }
 
-
 @media (min-width: 1024px) {
 	.accurate {
 		padding: 80px 0;
 	}
 }
-
 
 @media (min-width: 1250px) {
 	.accurate {
@@ -685,3 +579,94 @@ body {
 	}
 }
 
+/*---------------------------------Test Body 5------------------------------*/
+
+@media (min-width: 768px) {
+	.test {
+		padding: 50px 100px;
+	}
+}
+
+@media (min-width: 1024px) {
+	.test {
+		padding: 80px 120px;
+	}
+}
+
+@media (min-width: 1250px) {
+	.test {
+		padding: 100px 150px;
+	}
+}
+
+@media (max-width: 768px) {
+	.body5-md-center{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+/*---------------------------------Certify Your Body 6------------------------------*/
+
+@media (min-width: 1250px) {
+	.Certify-your {
+		padding: 100px 150px;
+		display: flex;
+		justify-content: center;
+	}
+}
+
+@media (max-width: 1250px) {
+	.Certify-your {
+		padding: 80px 120px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+}
+
+@media (max-width: 768px) {
+	.Certify-your {
+		padding: 0px 100px;
+		display: flex;
+		justify-content: center;
+		text-align: center;
+		flex-direction: column;
+	}
+}
+
+@media (max-width: 768px) {
+	.body6 .btn {
+		width: 100%;
+	}
+}
+
+/*---------------------------------Footer Body 7------------------------------*/
+
+@media (min-width: 768px) {
+	.footer {
+		padding: 50px 100px;
+	}
+}
+
+
+@media (min-width: 1024px) {
+	.footer {
+		padding: 80px 120px;
+	}
+}
+
+
+@media (min-width: 1250px) {
+	.footer {
+		padding: 100px 150px;
+	}
+}
+
+@media (max-width: 768px) {
+	.footer {
+		padding:0px 100px;
+	}
+}
